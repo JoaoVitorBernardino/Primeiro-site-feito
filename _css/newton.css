@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../fonts/bubblegum-sans-regular.otf");
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dddddd;
+    color: rgba(0, 0, 0, 1);
+}
+
+div#interface {
+    width: 1000px;
+    background-color: #ffffff;
+    margin: -10px auto 0 auto;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, .5);
+    padding: 10px;
+    position: relative;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+p.biografia {
+    margin: 10px -450px 10px 50px;  
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header#cabecalho h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: 'Titillium web', sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/* Formatação do Menu */
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: 600px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #888888;
+    padding: 10px;
+    margin: 2px;
+    transition: 1s;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+section#corpo {
+    display: auto;
+    width: 500px;
+}
+
+article#pag-bio h2 {
+    font-size: 13pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px -500px 10px 0px;
+    text-align: center;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 100px;
+}
+
+header#cabecalho-pag h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 400px;
+}
+
+img {
+    margin-left: 400px;
+}
+
+img#r {
+    margin-left: 0px;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}
